@@ -26,7 +26,7 @@
 ## РЕШЕНИЕ ЗАДАЧИ С РАЗБОРА на семинаре, которое я чуть переделал, 
 ## но оно не всегда высчитывает необходимые ближайшие значения
 def nearest_value(items, x): 
-    found = items[x]
+    found = items[0]
     for item in items:
         if abs(item - x) < abs(found - x):
             found = item
